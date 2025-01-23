@@ -1,13 +1,57 @@
 <!doctype html>
-<html lang="en_US">
+<html lang="cs">
     <head>
         <meta charset="utf-8">
         <title>Tables exercise 1</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="stylesheet" href="css/style.css"> ZAKOMENTOVÁNO -->
+
+
+        <style>
+      
+          table {
+                width: 610px; /* šířka tabulky */
+                height: 610px; /* výška tabulky */
+                border-collapse: collapse; /* Sloučení okrajů buněk */
+                margin: 20px left; /* Vycentrování tabulky */
+                table-layout: fixed; /* Fixní velikost buněk */
+              }
+
+    
+            td {
+                width: 100px; /* Každá buňka bude čtvercová */
+                height: 100px;
+                border: 2px solid black; /* Silné černé rámečky */
+                text-align: center; /* Obsah na střed */
+                font-size: 40px; /* Velikost písma pro X a O */
+                font-weight: bold; /* Tučné písmo */
+                vertical-align: middle; /* Svislé zarovnání na střed */
+            }
+            
+        </style>
     </head>
+    
     <body>
       <!-- write table code here -->
+      <img src="images/tictac.png" alt="Tic">
+     
+      <!-- nyní dle obrázku tabulka -->
+    
+    <table>
+      <tbody>
+      <tr>
+        <td>X</td><td>O</td><td>O</td>
+        </tr>
+      <tr>
+        <td>X</td><td>O</td><td>O</td>
+      </tr>
+      <tr>
+        <td>X</td><td>Y</td><td>O</td>
+      </tr>
+    </tbody>
+
+    </table>
+       
     </body>
 </html>
