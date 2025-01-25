@@ -72,8 +72,53 @@ body {
     text-decoration: none;
     transition: 0.5s;
 }
+
 .article-btn:hover {
     box-shadow: inset 0 0 0 3px #FF9083;
     background: none;
     color: #FF9083;
+}
+
+
+
+.menu-box {
+    width: 100%; /* Menu zabere celou šířku */
+    background-color: #FF6352; /* Tmavé pozadí */
+    padding: 10px 0; /* Vnitřní odsazení */
+    display: flex; /* Aktivuje flexbox */
+    justify-content: center; /* Zarovná menu na střed */
+}
+
+/* Položky menu budou vedle sebe */
+.menu-list {
+    list-style: none; /* Odstraní puntíky */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aktivuje flexbox */
+    justify-content: left; /* Položky budou zarovnány vlebo, když center - potom uprostřed, 
+    svisle by bylo align-items namísto justifity-content */
+}
+
+/* Přidám mezery mezi položkami */
+.menu-list li {
+    margin: 0 15px;
+    display: flex; /* Zajistím, že obsah bude centrovaný */
+}
+
+/* Odkazy v menu */
+.menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: flex; /* Flex zajistí mi správné zarovnání */
+    justify-content: center; /* Zarovnám text vodorovně */
+    align-items: center; /* Zarovnám text svisle */
+    transition: background 0.3s;
+}
+
+/* Hover efekt - efekty najetím myši */
+.menu-list a:hover {
+    background: #fff;
+    color: #FF6352;
 }
