@@ -12,6 +12,16 @@ body {
     font-family: sans-serif;
     box-shadow: 0 0 30px rgba(0,0,0,1);
   font-size: 15px;
+  width: 680px;
+  max-width: 90%;
+  background-color: rgba(244, 227, 227, 0.906);
+  font-size: 15px;
+  line-height: 1.5em;
+  color: rgba(0, 0, 0, 0.6);
+    padding: 20px; /*přidá vnitřní odsazení*/
+    text-align: justify; /* zarovnal jsem text do bloku*/
+    margin-top: 5%; /*horní okraj kontejneru jsem dal níže*/
+    padding-top: 5px;
 }
 
 h1, h2, h3 {
@@ -19,9 +29,21 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 38px; /* Opraveno "38x" na "38px" */
+    line-height: 1.2em; /* Správně spojeno s h1 */
+}
+
+h2 {
+    font-size: 32px; /* Přidán "px" k velikosti */
+    line-height: 1.0em; /* Správně uzavřený blok */
+}
+
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    width: 680px;
 }
 .gallery a {
     box-sizing: border-box;
@@ -33,4 +55,14 @@ h1, h2, h3 {
 }
 .gallery img:hover {
     filter: grayscale(0);
+}
+
+/*ůležité - tímto jsem upravil šířku 100%, stejně jako blok nad nimi, fotografie
+byly širší */
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s;
+    filter: grayscale(0.5);
 }
