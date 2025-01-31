@@ -1,0 +1,8 @@
+.cat  {
+width: 600px;
+height: 400px;
+background-image: url("../images/cat.jpeg"); /* .. = vystoupení z css - NUTNÉ*/
+background-size: cover; /* COVER = CELÝ DIV */
+background-position: center;
+background-repeat: no-repeat;
+}

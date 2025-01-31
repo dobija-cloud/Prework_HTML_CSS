@@ -1,0 +1,49 @@
+/*
+.container  {
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+line-height: 1.5em;
+color: #555;
+}
+
+h1, h2  {
+font-family: serif;
+font-weight: normal;
+color: rgb(86, 26, 26);
+line-height: 2em;
+text-transform: uppercase; /*TEXT VELKÝMI PÍSMENY*/
+
+/*
+}  
+
+cite  {
+    background-color: #eee;
+    text-transform: cursive;
+    text-color: #777   
+    }          */
+
+    .container {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        line-height: 2em; /* Opraveno na 2em podle zadání */
+        color: #555;
+        width: 80%;
+        margin: auto;
+        text-align: justify;
+
+      }
+      
+      h1, h2 {
+        font-family: sans-serif; /* Opraveno na sans-serif podle zadání */
+        font-weight: normal;
+        color: brown; /* Opraveno na brown podle zadání */
+        line-height: 1.5em; /* Nastaveno na 1.5em pro lepší čitelnost */
+        text-transform: uppercase; /* TEXT VELKÝMI PÍSMENY */
+      }
+      
+      cite {
+        background-color: #eee;
+        font-style: italic; /* Opraveno na font-style: italic podle zadání */
+        color: #777; /* Opraveno na color, ne text-color */
+      }
+      

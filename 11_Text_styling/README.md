@@ -27,7 +27,7 @@ Now change the appearance of `<h1>` and `<h2>`  titles as described below:
 
 ## Quotes
 
-The last thing you're going to change will be the `<cite>` element:
+Thelast thing you're going to change will be the `<cite>` element: 
 
 - background color `#eee`,
 - text in cursive,

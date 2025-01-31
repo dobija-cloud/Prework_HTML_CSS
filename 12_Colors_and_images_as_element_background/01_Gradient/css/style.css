@@ -1,0 +1,6 @@
+.gradient  {
+width: 500px;
+height: 200px;
+background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+/* background: linear-gradient(to left; blue, yellow, green, brown, black); */
+}
