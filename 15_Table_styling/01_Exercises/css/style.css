@@ -5,5 +5,35 @@ body {
 
 /* place styles here */
 .tab {
+    border-collapse: collapse; /* Sloučí okraje tabulky */
+    width: 80%; /* Nastaví šířku tabulky */
+    border: 1px solid black; /* Přidá obrys k tabulce */
+    margin-left: auto; /* vycentrování tabulky*/
+    margin-right: auto; /* vycentrování tabulky*/
+    padding: 20px; /* Odsazení od vnitřních okrajů na všech stranách */
 
+
+
+}
+
+/* JEŠTĚ ú§rava tabulky, odsazení u okrajů */
+
+.tab th, .tab td {
+    border: 1px solid #aaa; /* Přidá obrys k buňkám tabulky */
+    padding: 20px; /* Odsazení od vnitřních okrajů pro buňky */
+    height: 15px /* Nastavena výšku buněk tabulky */
+    }
+
+th    {
+color: rgb(30, 25, 142);
+text-align: left; /* Zarovnání textu vlevo */
+    padding-left: 20px; /* Přidání vnitřního odsazení vlevo */
+    background-color: blanchedalmond;  /* přdal jsem, pozadí nadpisu tabulky */
+}
+
+.tab td {
+    background-color: rgb(175, 222, 194); /* Nastavení barvy pozadí pro datové buňky tabulky */
+    padding:auto ; /* Odsazení od vnitřních okrajů pro buňky */
+    height:auto ; /* Nastavení výšky buněk */
+    color: rgb(0, 0, 100);  /*barva textu */
 }
