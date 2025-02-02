@@ -1,5 +1,6 @@
 body {
     max-width: 800px;
+    max-height: ; /*ZATÍM NEDOPLNĚNO... */
     margin: 0 auto;
     background: #F0F4F9;
    
@@ -48,6 +49,18 @@ body {
     margin-bottom: 30px;
     line-height: 1.5em;
 }
-.user-btn {
-}
 
+/* NYNÍ BUDE TLAČÍTKO */
+.user-btn {
+    background-color: #4950F6;
+    text-decoration: none; /* Odstranění podtržení textu */
+    color: #fff; /* Barva textu */
+    box-shadow: 0 2px 10px rgba(73, 80, 246, 0.4); /* Přidání stínu */
+    display: inline-flex; /* Zobrazení jako inline-flex, což umožňuje použít flexbox */
+    align-items: center; /* Vertikální vycentrování */
+    justify-content: center; /* Horizontální vycentrování */
+    padding: 20px 40px; /* Vnitřní okraje (padding) */
+    border-radius: 40px; /* Zaoblení rohů */
+    width: 80px; /* Nastavení šířky tlačítka */
+    height: 15px; /* Nastavení výšky tlačítka */
+}
