@@ -2,6 +2,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     background: #F0F4F9;
+   
 }
 .row {
     display: flex;
@@ -24,18 +25,22 @@ body {
 .user {
     box-sizing: border-box;
     font-family: sans-serif;
-    text-align: center;
+    text-align: justify; /* ZMĚNĚNO NAVÍC Z CENTER NA BLOK JUSTIFITY*/
     background: #fff;
     padding: 40px;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.1); /* Přidal jsem stín */
+    border-radius: 3px;  /* Přidal jsem zaoblení rohů*/
 }
 .user-avatar {
     margin: 0 0 20px;
     max-width: 250px;
     height: auto;
+    border-radius: 50%; /* Zaoblil jsem rohy na 50% */
 }
 .user-name {
     font-size:20px;
     color: #4950F6;
+    text-align: center; /*přidáno navíc - na střed jméno*/
 }
 .user-description {
     font-size:14px;
@@ -45,3 +50,4 @@ body {
 }
 .user-btn {
 }
+
