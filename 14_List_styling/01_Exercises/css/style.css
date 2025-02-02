@@ -1,7 +1,29 @@
 body {
   padding: 20px;
   font-size: 1.5rem;
-  font-family: sans-serif;
+  font-family: sans-serif; 
+
+  /* PŘIDÁNO */
+  .menu {
+    padding: 0; /* Odstranění vnitřních okrajů */
+    margin: 0; /* Odstranění okrajů */
+    list-style: none; /* Odstranění značek položek (bullet points) */
+    display: flex; /* Použití flexboxu - prvky budou vedle sebe */
+  }
+  
+  /* BUDE  - selektory ke stylování prvků li, nemusím do html dělat navíc menu li */
+  .menu li {
+    margin-right: 20px; /* Přidání mezery mezi prvky */
+  }
+  
+  .books {
+    list-style-type: decimal; /* Změní značky položek seznamu na čísla,
+     tento kód zajistí, že značky položek v seznamu .books budou číselné, aniž by se musela měnit HTML strukturu. */
+     line-height: 1.5; /* Nastavena mezera mezi řádky */
+    color: #7d2a2a; /* Nastavena barvu písma */
+}
+
+
 }
 
 hr {
@@ -12,4 +34,13 @@ hr {
 
 .title {
   color: crimson;
+}
+
+h2    {
+color: blue;
+font-style: normal; /* normální, kurzíva a další */
+font-family: Arial; /* druh písma rodina */
+/* POZOR - zde jsem udělal jen pro prvek h2, TEDY BEZ TEČKY! nebo si v html vytvořit třídu 
+<h2 class="heading">Nadpis</h2> */
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /*(stínování kolem písmen, LÉPE VYPADÁ */ 
 }
